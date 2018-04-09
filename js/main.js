@@ -25,7 +25,7 @@
 	doAnimations($firstAnimatingElems);
 
 	//Pause carousel
-	$myCarousel.carousel('pause');
+	// $myCarousel.carousel('pause');
 
 
 	//Other slides to be animated on carousel slide event
@@ -33,9 +33,13 @@
 		var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
 		doAnimations($animatingElems);
 	});
-    $('#carousel-example-generic').carousel({
-        interval:3000,
-        pause: "false"
-    });
+
+$(document).ready(function () {
+	$('#carousel-example-generic').carousel({
+				interval:3000,
+				pause: "false"
+		});
+})
+
 
 })(jQuery);
