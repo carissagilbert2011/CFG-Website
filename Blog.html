@@ -3,6 +3,7 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <title>Cuppa Connection</title>
   <script
@@ -10,6 +11,7 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
@@ -43,11 +45,11 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
                         <li><a href="#about">Our mission</a></li>
                           <li><a href="#ourteam">Our Team</a></li>
                           <li><a href="faq.html">FAQ</a></li>
-                          <li><a href="blog.html">Blog</a></li>
+                          <li class="active"><a href="blog.html">Blog</a></li>
 
 
                       </ul>
@@ -61,53 +63,86 @@
 
     <div class="container">
 
-<p>
-  <h2>Ahmet's Story</h2>
-  <img src=images/12.jpg class= "img-fluid" alt="Responsive image">
-http://stories.unhcr.org/ahmets-story-cyprus-p52234.html
+  <div class="row">
+    <h2>Ahmet's Story</h2>
+    <div class="col-md-3">
+      <img src="images/12.jpg" class= "img-fluid"/>
+    </div>
 
-“I will think about my options, but I’m certainly not going at sea again. I left for the future of my kids; I’m not going to die with them in the sea. Life is not over.”
+    <a href="http://stories.unhcr.org/ahmets-story-cyprus-p52234.html" data-toggle="lightbox" class="blog-quote">
+      “I will think about my options, but I’m certainly not going at sea again. I left for the future of my kids; I’m not going to die with them in the sea. Life is not over.”
+    </a>
+  </div>
 
-read more
 
-  <h2> Tishiri's Story</h2>
-  <img src=images/13.jpeg>
-http://stories.unhcr.org/forced-flee-refugee-eritrea-p7166.html
+  <div class="row">
+    <h2>Tishiri's Story</h2>
+    <div class="col-md-3">
+      <img src="images/13.jpeg" class= "img-fluid"/>
+    </div>
 
-“Life has been difficult for me, but my experiences have made me stronger. Being young and a woman, it isn’t easy to find your place in a new community.”
+    <a href="http://stories.unhcr.org/forced-flee-refugee-eritrea-p7166.html" data-toggle="lightbox" class="blog-quote">
+      “Life has been difficult for me, but my experiences have made me stronger. Being young and a woman, it isn’t easy to find your place in a new community.”
+    </a>
+  </div>
 
-read more
 
-  <h2> Sam's Story</h2>
-  <img src=images/14.jpg>
-http://stories.unhcr.org/sams-story-greece-p4882.html
+  <div class="row">
+    <h2>Sam's Story</h2>
+    <div class="col-md-3">
+      <img src="images/14.jpg" class= "img-fluid"/>
+    </div>
 
-“For me, one of the greatest challenges facing society, the government, and organizations like UNHCR, is combating hate. I wish that all could understand this: we are forced to flee our homes, we’re not coming here to cause trouble. I wish they could understand we’re all human beings, living under the same sky.”
+    <a href="http://stories.unhcr.org/sams-story-greece-p4882.html" data-toggle="lightbox" class="blog-quote">
+      “For me, one of the greatest challenges facing society, the government, and organizations like UNHCR, is combating hate. I wish that all could understand this: we are forced to flee our homes, we’re not coming here to cause trouble. I wish they could understand we’re all human beings, living under the same sky.”
+    </a>
+  </div>
 
-read more
 
-  <h2> Nasttho's Story</h2>
-  <img src=images/15.jpg>
-http://stories.unhcr.org/nastthos-story-ethiopia-p970.html
+  <div class="row">
+    <h2>Nasttho's Story</h2>
+    <div class="col-md-3">
+      <img src="images/15.jpg" class= "img-fluid"/>
+    </div>
 
-“I would like to be a doctor as I think this is the best way to help my people. I hope and want all Somali girls and women to learn and study and go onto university. Maybe if we are all educated we can change the future of our country.”
+    <a href="http://stories.unhcr.org/nastthos-story-ethiopia-p970.html" data-toggle="lightbox" class="blog-quote">
+      “I would like to be a doctor as I think this is the best way to help my people. I hope and want all Somali girls and women to learn and study and go onto university. Maybe if we are all educated we can change the future of our country.”
+    </a>
+  </div>
 
-read more
 
-  <h2> Naima's Story</h2>
-  <img src=images/16.jpg>
-http://stories.unhcr.org/naima-abdullahi-p134.html
+  <div class="row">
+    <h2> Naima's Story</h2>
+    <div class="col-md-3">
+      <img src="images/16.jpg" class= "img-fluid"/>
+    </div>
 
-“I think because of being a refugee I understand life in a completely different way. I still remember where we were, where I started, the house I lived. Today on this end I have everything at my fingertips. I have opportunities, especially as a woman, which I wouldn’t have had. I can make things happen for myself, whether I make it or not is all up to me.”
+    <a href="http://stories.unhcr.org/naima-abdullahi-p134.html" data-toggle="lightbox" class="blog-quote">
+      “I think because of being a refugee I understand life in a completely different way. I still remember where we were, where I started, the house I lived. Today on this end I have everything at my fingertips. I have opportunities, especially as a woman, which I wouldn’t have had. I can make things happen for myself, whether I make it or not is all up to me.”
+    </a>
+  </div>
 
-read more
+  <div class="row">
+    <h2> Max's Story</h2>
+    <div class="col-md-3">
+      <img src="images/17.jpeg" class= "img-fluid"/>
+    </div>
 
-  <h2> Max's Story</h2>
-  <img src=images/17.jpeg>
-http://stories.unhcr.org/friend-refugee-bhutan-2-p7176.html
+    <a href="http://stories.unhcr.org/friend-refugee-bhutan-2-p7176.html" data-toggle="lightbox" class="blog-quote">
+    “Those days were very tough yet were blessings too. Among all the privileges, the education opportunity was the best gift ever.”
+    </a>
+  </div>
 
-“Those days were very tough yet were blessings too. Among all the privileges, the education opportunity was the best gift ever.”
 
-read more
-</p>
-</div>
+
+
+
+  </div>
+
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+            </script>
+</body>
