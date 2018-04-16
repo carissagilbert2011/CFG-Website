@@ -39,6 +39,14 @@ $(document).ready(function () {
 				interval:3000,
 				pause: "false"
 		});
+
+		$('.subscribe-btn').click(function (e) {
+			e.preventDefault();
+			$('.popup-modal').css('display', 'flex');
+			setTimeout(() => {
+				$('.popup-modal').fadeOut();
+			}, 1000)
+		})
 })
 
 

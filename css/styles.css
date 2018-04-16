@@ -29,8 +29,23 @@ min-height: 50px;
   position:absolute;
   right: 0;
 }
-
+#contact-form
+{
+  font-size: 20px;
+  color:  rgb(255,192,0);
+  border-radius: 4px;
+  padding: 0 40px;
+}
+.col-md-12
+{
+  color:  rgb(255,192,0);
+}
+.input-group-addon
+{
+color:  rgb(255,192,0);
+}
 .navbar {
+
   margin-bottom: 0;
 }
 .navbar-brand {
@@ -329,4 +344,22 @@ h2{
 .blog-quote
 {
   font-size: 20px;
+}
+
+
+/*  Modal */
+
+.popup-modal {
+  position: absolute;
+  top: 35%;
+  bottom: 35%;
+  left: 30%;
+  right: 30%;
+  background: rgb(255,192,0);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 31px;
+  border-radius: 10px;
+  display: none;
 }
